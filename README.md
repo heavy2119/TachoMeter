@@ -10,7 +10,7 @@ Speed(Km) / RPM
 
 
 <p align="left">
-<img src="image/7.png" width="373" > 
+<img src="image/7.png" width="700" > 
 </p>
 
 
