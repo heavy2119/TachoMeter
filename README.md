@@ -23,15 +23,17 @@ Speed(Km) / RPM
 # Hardware Wire
 
 <p align="left">
-<img src="Image/14.png" width="700">
+<img src="image/6.png" width="700">
 </p>
 
-| Function    | Arduino | 8X8 LED Matrix | 8 LED Bar |
+| Function    | Arduino | Ring LED Matrix | Single LED  | Motor  |
 | ----------- | ------- | ------- | --------- |
-| 5V                 | 5V       | 5V       | 5V          |
-| GND                | GND      | GND      | GND         |
-| 8X8 LED Matrix     | D3       | IN       |             |
-| 8 LED Bar          | D6       |          | IN          |
+| 5V                 | 5V          | 5V       | 5V          |
+| GND                | GND         | GND      | GND         |
+| Ring LED Matrix    | D6          | IN       |             |
+| Single LED Bar     | D5          |          | IN          |
+| Motor              | D9,D10,D11  |          |             | 1(D9), 2,3(D10), 4(D11)
+
  
 ---
 
