@@ -27,7 +27,7 @@ Speed(Km) / RPM
 </p>
 
 | Function    | Arduino | Ring LED Matrix | Single LED  | Motor  |
-| ----------- | ------- | ------- | --------- |
+| ----------- | ------- | ------- | --------- |--------- |
 | 5V                 | 5V          | 5V       | 5V          |
 | GND                | GND         | GND      | GND         |
 | Ring LED Matrix    | D6          | IN       |             |
