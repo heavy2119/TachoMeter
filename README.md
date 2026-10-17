@@ -91,24 +91,27 @@ Speed(Km) / RPM
 ## 🇰🇷 사용 방법
 
 1. SimHub가 연결되어 있다면 먼저 연결을 해제합니다.
-2. **COM Port**를 선택한 후 **Connect** 버튼을 클릭합니다.
-3. 연결되면 바늘이 최대치까지 이동하며, EEPROM에 저장된 데이터를 자동으로 읽어옵니다. (EEPROM 읽어오는시간이 수초 발생됨)
-4. **Speed** 또는 **RPM** 탭을 선택하여 사용하고자 하는 곳에 보정을 진행합니다.
-5. 체크박스를 선택한 후 게이지를 조정하고 **보정값 전송** 버튼을 클릭하면 바늘이 움직입니다.
-6. 보정이 완료되면 **Save EEPROM**을 눌러 설정을 저장합니다.
-7. **Reboot Arduino**를 실행하여 보정값이 정상적으로 적용되었는지 확인합니다.
-8. **LED 설정** 탭에서 LED 색상과 밝기를 변경한 후 **색상 변경** 버튼을 눌러 변경 사항을 확인합니다.
-9. 원하는 설정이 완료되면 **Save EEPROM**을 눌러 저장합니다.
-10. **SimHub 식 복사** 탭에는 **RPM** 및 **Km/h**용 **Update Messages** 서식이 제공됩니다. (동시에 두개 사용은 불가능합니다.)
-11. 원하는 서식을 복사하여 SimHub의 **Update Messages** 항목에 붙여 넣습니다.
+2. Simhub의 software File에 있는 plugin을 simhub에 추가합니다.
+3. **COM Port**를 선택한 후 **연결** 버튼을 클릭합니다.
+4. 연결되면 바늘이 최대치까지 이동하며, EEPROM에 저장된 데이터를 자동으로 읽어옵니다. (EEPROM 읽어오는시간이 수초 발생됨)
+5. **Speed** 또는 **RPM** 탭을 선택하여 사용하고자 하는 곳에 보정을 진행합니다.
+6. 체크박스를 선택한 후 게이지를 조정하고 **보정값 전송** 버튼을 클릭하면 바늘이 움직입니다.
+7. 보정이 완료되면 **EEPROM 저장**을 눌러 설정을 저장합니다.
+8. **Reboot Arduino**를 실행하여 보정값이 정상적으로 적용되었는지 확인합니다.
+9. **LED 설정** 탭에서 LED 색상과 밝기를 변경한 후 **색상 변경** 버튼을 눌러 변경 사항을 확인합니다.
+10. 원하는 설정이 완료되면 **Save EEPROM**을 눌러 저장합니다.
+11. **SimHub 식 복사** 탭에는 **RPM** 및 **Km/h**용 **Update Messages** 서식이 제공됩니다. (동시에 두개 사용은 불가능합니다.)
+12. 원하는 서식을 복사하여 SimHub의 **Update Messages** 항목에 붙여 넣습니다.
+13. Minitachometer도 동일한 방법으로 셋팅합니다.
 
 ---
 
 ## 🇺🇸 Usage
 
 1. If SimHub is connected, disconnect it first.
-2. Select the **COM Port**, then click **Connect**.
-3. Once connected, the gauge needle will move to its maximum position, and the application will automatically load the data stored in the EEPROM (this may take a few seconds).
+2. Simhub Plugin Add.
+3. Select the **COM Port**, then click **Connect**.
+4. Once connected, the gauge needle will move to its maximum position, and the application will automatically load the data stored in the EEPROM (this may take a few seconds).
 4.Select the Speed or RPM tab for the gauge you want to calibrate.
 5. Check the checkbox, adjust the gauge, and click **Send Calibration Data**. The gauge needle will move accordingly.
 6. When calibration is complete, click **Save EEPROM** to save the settings.
