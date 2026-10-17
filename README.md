@@ -79,9 +79,13 @@ Speed(Km) / RPM
 <img src="image/11.png" width="400">
 </p>
 
+4. Serial Setting / (RTS & DTR OFF, Delay Time 4700ms)
+<p align="left">
+<img src="https://github.com/user-attachments/assets/96ef38a7-fcd3-4406-a75b-61e281ae5958" width="400">
+</p>
 
 
-4. Software_SimhubPlugin (Dll File Simhub Add)
+5. Software_SimhubPlugin (Dll File Simhub Add)
 <p align="left">
 <img src="https://github.com/user-attachments/assets/cbe09475-f082-415e-9093-38153de7dba8" width="400">
  <img src="https://github.com/user-attachments/assets/3be8cac9-575e-4789-91bd-54167399d7f4" width="200">
