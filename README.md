@@ -79,7 +79,8 @@ Speed(Km) / RPM
 <img src="image/11.png" width="400">
 </p>
 
-4. Software (Gauge Configurator)
+
+4. Software_SimhubPlugin (Dll File Simhub Add)
 <p align="left">
 <img src="image/12.png" width="400">
  <img src="image/13.png" width="200">
