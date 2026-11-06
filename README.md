@@ -92,7 +92,7 @@ Speed(Km) / RPM
 
 # Simhub Arduino Uploading
 <p align="left">
-<img src="image/upload.jpg" width="400">
+<img src="https://github.com/user-attachments/assets/ffe7e929-7eae-4f58-9452-56ab5dec0da9" width="400" >
 </p>
 
 ## 펌웨어 업로드
