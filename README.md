@@ -60,8 +60,6 @@ Speed(Km) / RPM
 | <p align="left"><img src="image/4.png" width="300"></p>  |  1EA  | 
 | <p align="left"><img src="image/5.png" width="300"></p>  |  1EA  | 
 
-# Simhub Arduino Uploading
-
 
 # Simhub Setting
 1. Add "Custom serial devices"
@@ -91,6 +89,33 @@ Speed(Km) / RPM
  <img src="https://github.com/user-attachments/assets/3be8cac9-575e-4789-91bd-54167399d7f4" width="200">
  <img src="https://github.com/user-attachments/assets/94e7a5de-c451-47de-ad19-9b2d58694b0a" width="400">
 </p>
+
+# Simhub Arduino Uploading
+
+펌웨어 업로드
+Arduino IDE는 쓰지 않습니다. 플러그인을 새 파일로 바꾼 뒤에는 SimHub를 완전히 종료했다가 다시 실행하세요. 그 다음에 보드 선택, 스무싱 모드, 펌웨어 업로드 버튼이 보입니다.
+
+같은 COM을 쓰는 SimHub 사용자 지정 시리얼을 먼저 끕니다. 포트를 잡고 있으면 업로드가 실패합니다.
+큰 계기판은 BigTacho, 작은 계기판은 MiniTacho 탭에서 합니다. 탭이 다르면 다른 펌웨어가 들어갑니다.
+COM을 선택합니다.
+보드는 대부분 Nano 구 부트로더입니다. 신형 부트로더와 Uno만 115200입니다. 여기가 틀리면 업로드 자체가 안 됩니다.
+스무싱을 쓸 게이지만 스무싱 모드를 체크합니다. 체크는 실행 중 전환이 아니라 다른 펌웨어를 넣는 선택입니다. 나중에 바꾸려면 다시 업로드합니다.
+펌웨어 업로드를 누르고 확인을 누릅니다. 끝나면 상태가 "업로드 완료. 다시 연결하세요."로 바뀝니다.
+그다음 연결을 눌러 보정으로 넘어갑니다. 연결은 펌웨어를 넣는 버튼이 아닙니다.
+
+
+Firmware upload
+Arduino IDE is not used. After replacing the plugin file, quit SimHub completely and start it again. The board list, smoothing checkbox, and firmware upload button appear after that restart.
+
+Turn off the SimHub custom serial device that uses the same COM port. The upload fails while that port is held open.
+Use the BigTacho tab for the large gauge and the MiniTacho tab for the small gauge. Each tab uploads a different firmware.
+Select the COM port.
+Most boards use Nano old bootloader. Only the new Nano bootloader and Uno use 115200. The wrong choice stops the upload.
+Check Smoothing mode only for a gauge that should use it. The checkbox selects a different firmware. It does not switch modes while the gauge is running. Upload again to change it later.
+Click Upload firmware and confirm. When it finishes, the status reads "Upload complete. Connect again."
+Click Connect to start calibration. Connect does not upload firmware.
+
+
 
 ## 🇰🇷 사용 방법
 
