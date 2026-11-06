@@ -95,6 +95,8 @@ Speed(Km) / RPM
 <img src="https://github.com/user-attachments/assets/ffe7e929-7eae-4f58-9452-56ab5dec0da9" width="400" >
 </p>
 
+5번 아래에 이 문장을 넣으면 됩니다. 전체 설명도 그 문장을 포함해 다시 적었습니다.
+
 ## 펌웨어 업로드
 
 Arduino IDE는 쓰지 않습니다. 플러그인을 새 파일로 바꾼 뒤에는 SimHub를 완전히 종료했다가 다시 실행하세요. 그 다음에 보드 선택, 스무싱 모드, 펌웨어 업로드 버튼이 보입니다.
@@ -103,7 +105,7 @@ Arduino IDE는 쓰지 않습니다. 플러그인을 새 파일로 바꾼 뒤에�
 2. 큰 계기판은 **BigTacho**, 작은 계기판은 **MiniTacho** 탭에서 합니다. 탭이 다르면 다른 펌웨어가 들어갑니다.
 3. **COM**을 선택합니다.
 4. 보드는 대부분 **Nano 구 부트로더**입니다. 신형 부트로더와 Uno만 115200입니다. 여기가 틀리면 업로드 자체가 안 됩니다.
-5. 스무싱을 쓸 게이지만 **스무싱 모드**를 체크합니다. 체크는 실행 중 전환이 아니라 다른 펌웨어를 넣는 선택입니다. 나중에 바꾸려면 다시 업로드합니다.
+5. 스무싱을 쓸 게이지만 **스무싱 모드**를 체크합니다. 스무싱 모드는 바늘이 조금 더 부드럽게 움직입니다. 스무싱 모드를 끄면 바늘이 목표에 즉각적으로 반응합니다. 체크는 실행 중 전환이 아니라 다른 펌웨어를 넣는 선택입니다. 나중에 바꾸려면 다시 업로드합니다.
 6. **펌웨어 업로드**를 누르고 확인을 누릅니다. 끝나면 상태가 "업로드 완료. 다시 연결하세요."로 바뀝니다.
 7. 그다음 **연결**을 눌러 보정으로 넘어갑니다. 연결은 펌웨어를 넣는 버튼이 아닙니다.
 
@@ -115,10 +117,9 @@ Arduino IDE is not used. After replacing the plugin file, quit SimHub completely
 2. Use the **BigTacho** tab for the large gauge and the **MiniTacho** tab for the small gauge. Each tab uploads a different firmware.
 3. Select the **COM** port.
 4. Most boards use **Nano old bootloader**. Only the new Nano bootloader and Uno use 115200. The wrong choice stops the upload.
-5. Check **Smoothing mode** only for a gauge that should use it. The checkbox selects a different firmware. It does not switch modes while the gauge is running. Upload again to change it later.
+5. Check **Smoothing mode** only for a gauge that should use it. Smoothing mode moves the needle a little more gently. With smoothing off, the needle reacts to the target immediately. The checkbox selects a different firmware. It does not switch modes while the gauge is running. Upload again to change it later.
 6. Click **Upload firmware** and confirm. When it finishes, the status reads "Upload complete. Connect again."
 7. Click **Connect** to start calibration. Connect does not upload firmware.
-
 
 
 ## 🇰🇷 사용 방법
